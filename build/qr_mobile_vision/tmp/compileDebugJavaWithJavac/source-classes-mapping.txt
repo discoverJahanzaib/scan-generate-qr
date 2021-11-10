@@ -1,0 +1,37 @@
+com/github/rmtmckenzie/qrmobilevision/Heartbeat.java
+ com.github.rmtmckenzie.qrmobilevision.Heartbeat
+com/github/rmtmckenzie/qrmobilevision/QrReader.java
+ com.github.rmtmckenzie.qrmobilevision.QrReader
+ com.github.rmtmckenzie.qrmobilevision.QrReader$1
+ com.github.rmtmckenzie.qrmobilevision.QrReader$Exception
+ com.github.rmtmckenzie.qrmobilevision.QrReader$Exception$Reason
+ com.github.rmtmckenzie.qrmobilevision.QrReader$QRReaderStartedCallback
+com/github/rmtmckenzie/qrmobilevision/QrCameraC2.java
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC2
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC2$1
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC2$2
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC2$3
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC2$4
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC2$Frame
+com/github/rmtmckenzie/qrmobilevision/QrCameraC1.java
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC1
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC1$1
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC1$2
+ com.github.rmtmckenzie.qrmobilevision.QrCameraC1$Frame
+com/github/rmtmckenzie/qrmobilevision/NoPermissionException.java
+ com.github.rmtmckenzie.qrmobilevision.NoPermissionException
+com/github/rmtmckenzie/qrmobilevision/QrCamera.java
+ com.github.rmtmckenzie.qrmobilevision.QrCamera
+com/github/rmtmckenzie/qrmobilevision/QrMobileVisionPlugin.java
+ com.github.rmtmckenzie.qrmobilevision.QrMobileVisionPlugin
+ com.github.rmtmckenzie.qrmobilevision.QrMobileVisionPlugin$1
+ com.github.rmtmckenzie.qrmobilevision.QrMobileVisionPlugin$ReadingInstance
+com/github/rmtmckenzie/qrmobilevision/QrReaderCallbacks.java
+ com.github.rmtmckenzie.qrmobilevision.QrReaderCallbacks
+com/github/rmtmckenzie/qrmobilevision/BarcodeFormats.java
+ com.github.rmtmckenzie.qrmobilevision.BarcodeFormats
+com/github/rmtmckenzie/qrmobilevision/QrDetector.java
+ com.github.rmtmckenzie.qrmobilevision.QrDetector
+ com.github.rmtmckenzie.qrmobilevision.QrDetector$Frame
+com/github/rmtmckenzie/qrmobilevision/BuildConfig.java
+ com.github.rmtmckenzie.qrmobilevision.BuildConfig

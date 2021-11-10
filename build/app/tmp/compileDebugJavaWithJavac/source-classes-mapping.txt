@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/allinone/MainActivity.java
+ com.example.allinone.MainActivity
+com/example/allinone/BuildConfig.java
+ com.example.allinone.BuildConfig
