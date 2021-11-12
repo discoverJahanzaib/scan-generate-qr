@@ -26,6 +26,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "barcode",
+      "rootUri": "file:///Users/discover/.pub-cache/hosted/pub.dartlang.org/barcode-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/discover/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
       "packageUri": "lib/",
@@ -530,7 +536,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-10T14:07:37.199686Z",
+  "generated": "2021-11-12T10:08:21.303511Z",
   "generator": "pub",
   "generatorVersion": "2.14.3"
 }

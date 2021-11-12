@@ -1,4 +1,5 @@
 import 'package:allinone/Route_Constants/route_constants.dart';
+import 'package:allinone/barcode.dart';
 import 'package:allinone/qr_scan.dart';
 import 'package:allinone/utils/ad_helper.dart';
 import 'package:allinone/utils/utils.dart';
@@ -22,7 +23,8 @@ class _HostPageState extends State<HostPage> {
   bool navSelected = false;
   List<String> pageKeys = [
     RouteConstant.scan,
-    RouteConstant.generate
+    RouteConstant.generate,
+    RouteConstant.barcode
   ];
 
   late BannerAd _bannerAd;
@@ -95,6 +97,9 @@ class _HostPageState extends State<HostPage> {
               case RouteConstant.generate:
                 page = GenerateQr();
                 break;
+              case RouteConstant.barcode:
+                page = BarCode();
+                break;
             }
             return PageRouteBuilder(
                 settings: settings,
@@ -129,6 +134,12 @@ class _HostPageState extends State<HostPage> {
                 inactiveColor: CustomizedTheme.white,
                 icon: Icon(Icons.code),
                 title: Text('Generate',style: CustomizedTheme.sf_w_W300_14),
+                activeColor: CustomizedTheme.white.withOpacity(.2)
+            ),
+            BottomNavyBarItem(
+                inactiveColor: CustomizedTheme.white,
+                icon: Icon(Icons.code),
+                title: Text('Barcode',style: CustomizedTheme.sf_w_W300_14),
                 activeColor: CustomizedTheme.white.withOpacity(.2)
             ),
           ],
